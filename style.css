@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+section{
+    width: 100%;
+    height: 100vh;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTaHycIgm9GoZnNo0O2ODLZk_3HaeEDjnUEiiC9jjnPXRA5webSZuGUblOLjSqsIyZjKFwcpQTyNbx6RIOvvL6JFkR8Hd-XOrqRUJ2B07k&s=10');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position-y: 100%;
+    background-position-x: 50%;
+    animation: descer 5s ease infinite;
+}
+
+body{
+    color:#3e8b3e
+}
+
+@keyframes descer {
+    0%{
+    background-position-y:0% ;
+    }
+    50%{
+        background-position-x: 100%;
+    }
+    100%{
+        background-position-y: 100%;
+    }
+}
