@@ -1,0 +1,36 @@
+img{
+    width: 250px;
+    animation: rodar 5s linear infinite;
+}
+
+
+@keyframes rodar{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+         transform: rotate(360deg);
+    }
+}
+
+
+
+
+
+
+div{
+    border: 2px solid black;
+    width: 100px;
+    animation: cia 4s ease infinite;
+}
+@keyframes cia{
+    0%{
+        transform: translate(0px);
+    }
+    50%{
+         transform: translate(20000px);
+    }
+    100%{
+        transform: translate(0px)
+    }
+}
