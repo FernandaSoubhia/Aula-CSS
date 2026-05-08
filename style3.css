@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.Calculadora{
+    background-color: silver;
+    width: 300px;
+}
+.botoes{
+    display: grid;
+    grid-template-columns: repeat(4,70px);
+}
+
+
