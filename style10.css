@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.cards{
+   display: grid;
+   grid-template-columns: repeat(3, 300px);
+   justify-content: center;
+   gap: 10px;
+}
+.card{
+   border: 1px solid black;
+   text-align: center;
+   padding: 30px;
+}
+
+img{
+    width: 200px;
+}
+
+@media screen and (max-width:600px) {
+   .cards{
+        display: block;
+        width: 80%;
+   }
+}
