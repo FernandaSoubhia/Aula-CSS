@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: rosybrown;
+    height: 80px;
+    text-align: center;
+    align-content: center;    
+}
+
+a{
+    color: white;
+    text-align: none;
+    margin-left: 10px;
+}
+
+a:hover{
+    background-color: rgb(219, 162, 193);
+    font-size: 1.25rem;
+    border: 1px solid gray;
+    color: black;
+}
+
+.apresentacao{
+    background-image: url('https://th.bing.com/th/id/OIP.-8tbhl0xCzbO83_NZCgjVAHaHa?w=191&h=191&c=7&r=0&o=7&pid=1.7&rm=3');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    text-align: center;
+    align-content: center;
+    font-size: 2rem;
+}
+
+.apresentacao button{
+    padding: 10px 15px;
+    background-color: palevioletred;
+    border-radius: 3px;
+    border: 3px solid black;
+    box-shadow: 10px 10px 10px black;
+}
