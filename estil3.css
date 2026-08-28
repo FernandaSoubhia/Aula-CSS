@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+.cardapio-container {
+    max-width: 1200px;
+    margin: 60px auto;
+    padding: 0 20px;
+}
+
+.titulo-secao {
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 40px;
+    color: #222;
+}
+
+.grade-produtos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+
+.card-produto {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+    width: 320px;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card-produto:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.card-produto img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.card-conteudo {
+    padding: 20px;
+}
+
+.card-conteudo h3 {
+    margin: 0 0 10px 0;
+    font-size: 20px;
+    color: #222;
+}
+
+.card-conteudo p {
+    font-size: 14px;
+    color: #666;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    height: 65px;
+    overflow: hidden;
+}
+
+.preco {
+    display: block;
+    font-size: 18px;
+    font-weight: bold;
+    color: #e74c3c;
+}
